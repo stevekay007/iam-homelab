@@ -1,0 +1,37 @@
+
+
+AllowedDNSSuffixes                 : {}
+ChildDomains                       : {}
+ComputersContainer                 : CN=Computers,DC=corp,DC=lab
+DeletedObjectsContainer            : CN=Deleted Objects,DC=corp,DC=lab
+DistinguishedName                  : DC=corp,DC=lab
+DNSRoot                            : corp.lab
+DomainControllersContainer         : OU=Domain Controllers,DC=corp,DC=lab
+DomainMode                         : Windows2016Domain
+DomainSID                          : S-1-5-21-4241671832-3001383653-2385825964
+ForeignSecurityPrincipalsContainer : CN=ForeignSecurityPrincipals,DC=corp,DC=lab
+Forest                             : corp.lab
+InfrastructureMaster               : DC01.corp.lab
+LastLogonReplicationInterval       : 
+LinkedGroupPolicyObjects           : {CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=cor
+                                     p,DC=lab}
+LostAndFoundContainer              : CN=LostAndFound,DC=corp,DC=lab
+ManagedBy                          : 
+Name                               : corp
+NetBIOSName                        : CORP
+ObjectClass                        : domainDNS
+ObjectGUID                         : 5a7c7a4f-086c-4459-92a4-6f00d8c0310d
+ParentDomain                       : 
+PDCEmulator                        : DC01.corp.lab
+PublicKeyRequiredPasswordRolling   : True
+QuotasContainer                    : CN=NTDS Quotas,DC=corp,DC=lab
+ReadOnlyReplicaDirectoryServers    : {}
+ReplicaDirectoryServers            : {DC01.corp.lab}
+RIDMaster                          : DC01.corp.lab
+SubordinateReferences              : {DC=ForestDnsZones,DC=corp,DC=lab, DC=DomainDnsZones,DC=corp,DC=lab, 
+                                     CN=Configuration,DC=corp,DC=lab}
+SystemsContainer                   : CN=System,DC=corp,DC=lab
+UsersContainer                     : CN=Users,DC=corp,DC=lab
+
+
+

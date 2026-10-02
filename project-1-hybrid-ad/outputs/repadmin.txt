@@ -1,0 +1,24 @@
+Replication Summary Start Time: 2026-10-02 18:54:45
+
+
+
+Beginning data collection for replication summary, this may take awhile:
+
+  ....
+
+
+
+
+
+Source DSA          largest delta    fails/total %%   error
+
+
+
+
+
+Destination DSA     largest delta    fails/total %%   error
+
+
+
+
+

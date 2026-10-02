@@ -1,0 +1,32 @@
+
+
+ComputerObjectDN           : CN=DC01,OU=Domain Controllers,DC=corp,DC=lab
+DefaultPartition           : DC=corp,DC=lab
+Domain                     : corp.lab
+Enabled                    : True
+Forest                     : corp.lab
+HostName                   : DC01.corp.lab
+InvocationId               : 177bd4f9-ac5c-4005-86e3-8928410b6af6
+IPv4Address                : 10.0.0.10
+IPv6Address                : fd00::b185:673b:27fe:f7c5
+IsGlobalCatalog            : True
+IsReadOnly                 : False
+LdapPort                   : 389
+Name                       : DC01
+NTDSSettingsObjectDN       : CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Conf
+                             iguration,DC=corp,DC=lab
+OperatingSystem            : Windows Server 2022 Standard Evaluation
+OperatingSystemHotfix      : 
+OperatingSystemServicePack : 
+OperatingSystemVersion     : 10.0 (20348)
+OperationMasterRoles       : {SchemaMaster, DomainNamingMaster, PDCEmulator, RIDMaster...}
+Partitions                 : {DC=ForestDnsZones,DC=corp,DC=lab, DC=DomainDnsZones,DC=corp,DC=lab, 
+                             CN=Schema,CN=Configuration,DC=corp,DC=lab, CN=Configuration,DC=corp,DC=lab...}
+ServerObjectDN             : CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=corp
+                             ,DC=lab
+ServerObjectGuid           : 6c5a6da8-7745-4f10-9da6-0eea63a302f7
+Site                       : Default-First-Site-Name
+SslPort                    : 636
+
+
+
