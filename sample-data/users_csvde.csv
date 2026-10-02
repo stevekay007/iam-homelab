@@ -1,0 +1,11 @@
+DN,objectClass,sAMAccountName,userPrincipalName,givenName,sn,displayName,department,title,userAccountControl
+"CN=Grace Tanaka,OU=Users,DC=corp,DC=lab",user,c.gtanaka,c.gtanaka@corp.lab,Grace,Tanaka,Grace Tanaka,Contractors,Contractor,514
+"CN=Noah Underwood,OU=Users,DC=corp,DC=lab",user,c.nunderwood,c.nunderwood@corp.lab,Noah,Underwood,Noah Underwood,Contractors,Contractor,514
+"CN=Felix Lopez,OU=Users,DC=corp,DC=lab",user,c.flopez,c.flopez@corp.lab,Felix,Lopez,Felix Lopez,Contractors,Contractor,514
+"CN=Priya Jensen,OU=Users,DC=corp,DC=lab",user,c.pjensen,c.pjensen@corp.lab,Priya,Jensen,Priya Jensen,Contractors,Contractor,514
+"CN=Hugo Mensah,OU=Users,DC=corp,DC=lab",user,c.hmensah,c.hmensah@corp.lab,Hugo,Mensah,Hugo Mensah,Contractors,Contractor,514
+"CN=Ingrid Dubois,OU=Users,DC=corp,DC=lab",user,c.idubois,c.idubois@corp.lab,Ingrid,Dubois,Ingrid Dubois,Contractors,Contractor,514
+"CN=Omar Eriksen,OU=Users,DC=corp,DC=lab",user,c.oeriksen,c.oeriksen@corp.lab,Omar,Eriksen,Omar Eriksen,Contractors,Contractor,514
+"CN=Theo Kowalski,OU=Users,DC=corp,DC=lab",user,c.tkowalski,c.tkowalski@corp.lab,Theo,Kowalski,Theo Kowalski,Contractors,Contractor,514
+"CN=Lila Ibrahim,OU=Users,DC=corp,DC=lab",user,c.librahim,c.librahim@corp.lab,Lila,Ibrahim,Lila Ibrahim,Contractors,Contractor,514
+"CN=Leo Kaplan,OU=Users,DC=corp,DC=lab",user,c.lkaplan,c.lkaplan@corp.lab,Leo,Kaplan,Leo Kaplan,Contractors,Contractor,514
