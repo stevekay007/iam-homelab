@@ -30,7 +30,7 @@ PKI, and identity threat detection.
 - [x] Verified connectivity between the two servers (ICMP)
 - [x] Promoted DC01 to a domain controller for `corp.lab`
 - [x] Ran `dcdiag` and reviewed the results
-- [ ] Join SRV01 to the domain
+- [x] Join SRV01 to the domain
 - [ ] OU structure, users, groups (AGDLP), delegated password resets
 - [ ] Group Policy (password policy, USB block, restricted groups)
 - [ ] Sync to Microsoft Entra ID with Entra Connect
