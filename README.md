@@ -31,7 +31,7 @@ PKI, and identity threat detection.
 - [x] Promoted DC01 to a domain controller for `corp.lab`
 - [x] Ran `dcdiag` and reviewed the results
 - [x] Join SRV01 to the domain
-- [ ] OU structure, users, groups (AGDLP), delegated password resets
+- [x] OU structure, users, groups (AGDLP), delegated password resets
 - [ ] Group Policy (password policy, USB block, restricted groups)
 - [ ] Sync to Microsoft Entra ID with Entra Connect
 - [ ] Break/fix exercises
