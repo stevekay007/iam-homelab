@@ -32,6 +32,8 @@ PKI, and identity threat detection.
 - [x] Ran `dcdiag` and reviewed the results
 - [x] Join SRV01 to the domain
 - [x] OU structure, users, groups (AGDLP), delegated password resets
+- [x] Bulk user import from a CSV with a PowerShell script (dry run, log, safe to re-run)
+- [ ] Mover, leaver and audit report scripts
 - [ ] Group Policy (password policy, USB block, restricted groups)
 - [ ] Sync to Microsoft Entra ID with Entra Connect
 - [ ] Break/fix exercises
