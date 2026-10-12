@@ -41,3 +41,24 @@ Format: **Symptom, diagnosis, root cause, fix, what I would do to prevent it.**
 ## Open issue: DC01 has no internet through the NAT adapter
 - **Symptom:** DNS forwarders show red X marks; `ping 10.0.2.2` fails and `arp -a` has no entry for the gateway.
 - **Status:** Investigating (adapter reset and restart attempts). Not required until Entra Connect.
+
+## 6. Could not create a "Users" OU
+- **Symptom:** Active Directory said the name "Users" was already in use when I tried to create an OU at the top of the domain.
+- **Diagnosis:** Saw that the built-in Users container already sits at the root of corp.lab.
+- **Root cause:** Active Directory ships with a built-in Users container, and you can't put an OU with the same name next to it.
+- **Fix:** Created a Corp OU first and put Users, Workstations, Servers, Admins, ServiceAccounts and Disabled inside it.
+- **Prevention:** Plan the OU design under one top-level OU before creating anything.
+
+## 7. PowerShell could not find my script (2026-10-11)
+- **Symptom:** Running `.\Move-LabUsers.ps1` gave "The term is not recognized".
+- **Diagnosis:** The prompt showed a different folder from the one holding the file.
+- **Root cause:** I ran the script from the wrong folder.
+- **Fix:** Ran `cd C:\LabFiles` and then `dir *.ps1` to confirm the file was there, then ran it again.
+- **Prevention:** Look at the prompt path (or run `pwd`) before running a script.
+
+## 8. Execution policy question blocked the first script run (2026-10-11)
+- **Symptom:** PowerShell asked "Do you want to change the execution policy?" and the dry run did not start.
+- **Diagnosis:** Windows blocks scripts by default as a safety rule.
+- **Root cause:** The default execution policy does not allow local scripts.
+- **Fix:** Ran `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and answered Y. This only lasts for that one PowerShell window.
+- **Prevention:** Always use `-Scope Process` so the server's permanent setting stays unchanged, and use `-WhatIf` for a dry run first.
