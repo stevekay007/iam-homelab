@@ -8,7 +8,7 @@
 [CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory)][string]$CsvPath,
-    [string]$BaseOU = "OU=Users,DC=corp,DC=lab"
+    [string]$BaseOU = "OU=Users,OU=Corp,DC=corp,DC=lab"
 )
 Import-Module ActiveDirectory -ErrorAction Stop
 

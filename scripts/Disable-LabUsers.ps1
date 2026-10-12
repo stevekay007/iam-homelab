@@ -8,13 +8,13 @@
 [CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory)][string]$CsvPath,
-    [string]$DisabledOU = "OU=Disabled,DC=corp,DC=lab"
+    [string]$DisabledOU = "OU=Disabled,OU=Corp,DC=corp,DC=lab"
 )
 Import-Module ActiveDirectory -ErrorAction Stop
 
 if (-not (Get-ADOrganizationalUnit -Filter "DistinguishedName -eq '$DisabledOU'")) {
     if ($PSCmdlet.ShouldProcess($DisabledOU, "Create Disabled OU")) {
-        New-ADOrganizationalUnit -Name "Disabled" -Path "DC=corp,DC=lab" `
+        New-ADOrganizationalUnit -Name "Disabled" -Path "OU=Corp,DC=corp,DC=lab" `
             -ProtectedFromAccidentalDeletion $false
     }
 }
